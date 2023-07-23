@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+    Author: DosX
+-->
+
+<html>
+
+<head>
+    <title>Braux: Terminal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="google" content="notranslate">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/themes/dark.css" id="theme-link">
+</head>
+
+<body>
+    <div id="context-menu">
+        <div class="item" onclick="pushCommand('clear')">Clear</div>
+        <div class="item" onclick="pushCommand('about')">About</div>
+        <hr>
+        <div style="margin-bottom: 7px; margin-left: 7px; color: gray;" id="version-info"></div>
+    </div>
+    <div id="app" class="container">
+        <div id="console"></div>
+        <div class="prompt">
+            <span><span class="pointer">&gt; </span></span><input type="text" autocapitalize="off" autocomplete="off"
+                autocorrect="off" id="commandInput" spellcheck="false" placeholder="help" maxlength=2048>
+        </div>
+    </div>
+
+    <!-- context menu -->
+    <script src="modules/context.js"></script>
+
+    <!-- fingerprint -->
+    <script src="modules/fp-api.js"></script>
+
+    <!-- file system [beta] -->
+    <script src="modules/io-fs.js"></script>
+
+    <script src="modules/manifest.js"></script>
+    <script src="modules/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+hr {
+    background-color: rgb(151, 151, 151);
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+::selection {
+    background-color: black;
+    color: white;
+}
+
+input[type="text"] {
+    color: black;
+    caret-color: black;
+}
+
+.error {
+    background-color: rgb(116, 0, 0);
+    color: white;
+}
+
+a {
+    background-color: rgb(0, 63, 238);
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.pointer {
+    color: black;
+}
+
+#context-menu {
+    background: #eee;
+    border-color: rgb(151, 151, 151);
+}
+
+#context-menu .item {
+    color: #000000;
+}
+
+#context-menu .item:hover {
+    background: #dbdbdb;
+}
