@@ -1,3 +1,5 @@
+// Github: https://github.com/DosX-dev/braux
+
 const config = {
         version: '3.20.25'
     },

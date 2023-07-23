@@ -1,3 +1,5 @@
+// Github: https://github.com/DosX-dev/braux
+
 class FileSystem {
     constructor() {
         this.storage = window.localStorage;

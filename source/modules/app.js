@@ -1,3 +1,5 @@
+// Github: https://github.com/DosX-dev/braux
+
 const visual = {
     themes: {
         dark: 'styles/themes/dark.css',

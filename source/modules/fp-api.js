@@ -1,3 +1,5 @@
+// Github: https://github.com/DosX-dev/braux
+
 function fingerprint() {
     var fingerprintData = {
         'User Agent': navigator.userAgent,

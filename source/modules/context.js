@@ -1,3 +1,5 @@
+// Github: https://github.com/DosX-dev/braux
+
 const contextMenu = document.getElementById("context-menu");
 const scope = document.querySelector("body");
 
