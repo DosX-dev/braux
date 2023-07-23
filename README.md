@@ -4,7 +4,7 @@ It combines ease of use with powerful features, giving you a Unix-like
 command line with a choice of different themes and color schemes.
 
 # installed
-# ()[https://devs.cf/terminal]
+# (DEVS.CF/TERMINAL)[https://devs.cf/terminal]
 
 # to do
 * make command control the current user
