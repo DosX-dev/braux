@@ -4,7 +4,7 @@ It combines ease of use with powerful features, giving you a Unix-like
 command line with a choice of different themes and color schemes.
 
 # Installed?
-### https://devs.cf/terminal
+### https://dosx.su/terminal
 
 # To do
 * make command control the current user
