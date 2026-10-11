@@ -89,7 +89,7 @@ const userProfile = {
 };
 
 function replaceTagsWithEntities(text) {
-    return replacedText = text.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
 function setFocus() {
@@ -462,7 +462,7 @@ commandInput.addEventListener("keydown", (event) => {
 
 
 function getCommandHistory() {
-    return commandHistory.map((command, index) => `${index + 1}. <span class="insert-cmd">${command}</span>`).join("\n");
+    return commandHistory.map((command, index) => `${index + 1}. <span class="insert-cmd">${replaceTagsWithEntities(command)}</span>`).join("\n");
 }
 
 function clearCommandHistory() {
